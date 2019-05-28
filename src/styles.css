@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+body
+{
+    background: #ccc;
+}
+header a:header
+{
+    color: #fff;
+}body {
+    background-image: url("assets/background.jpeg");
+    background-color: #cccccc;
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+   }   
+   .card
+  { border: 1px solid grey; 
+ 
+   margin-top: 40px;
+   margin-left: 333px;
+   padding: 36px;
+   background-color: #cccccc;
+   
+}
