@@ -7,6 +7,8 @@ import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { Routes } from '@angular/router';
 import { AutComponent } from './aut/aut.component';
+
+import {HttpClientModule} from '@angular/common/http';
 const appRoutes: Routes = [
  
 ];
@@ -20,7 +22,9 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
